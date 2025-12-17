@@ -54,16 +54,10 @@
             color: #000000;
         }
 
-        button {
+        .button {
             padding: 18px 36px;
             font-size: 1.1em;
-            color: white;
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-            width: 60%;
-            max-width: 300px;
-            transition: background-color 0.3s;
+            color: gray;
         }
 
         #confetti-canvas {
@@ -79,9 +73,9 @@
 </head>
 <body>
     <!-- Sección 1: Página inicial -->
-    <div id="section1" class="section active" style="background-image: url('assets/Frame-19989.png');">
+    <div id="section1" class="section active" onclick="nextSection()" style="background-image: url('assets/Frame-19989.png');">
         <div class="heading">¡Feliz Navidad!</div>
-        <button onclick="nextSection()">Ver regalito ak →</button>
+        <div class="heading">Ver regalito ak →</div>
     </div>
 
     <!-- Sección 2: Valija -->
